@@ -80,7 +80,6 @@ table:not(.ex){
 }
 .ex td, .ex{
   border: none;
-  color: red;
 }
 a{
   margin: 1vw;
