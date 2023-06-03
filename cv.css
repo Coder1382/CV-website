@@ -230,7 +230,7 @@ background-color: #222;
       }
       .left{
         left: 47vw;
-        top: 3vh;
+        top: 10vh;
         transform: rotate(45deg);
       }
       .right{
@@ -244,7 +244,7 @@ background-color: #222;
       }
       .lef, .le{
         left: 47.6vw;
-        top: 8vh;
+        top: 15vh;
         transform: rotate(45deg);
       }
       .rig, .ri{
