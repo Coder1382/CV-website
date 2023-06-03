@@ -233,12 +233,12 @@ background-color: #222;
       }
       .left{
         left: 47vw;
-        top: 3vh;
+        top: 7vh;
         transform: rotate(45deg);
       }
       .right{
         left: 47vw;
-        top: 97vh;
+        top: 93vh;
         transform: rotate(135deg);
       }
       .lef, .rig, .le, .ri{
@@ -247,12 +247,12 @@ background-color: #222;
       }
       .lef, .le{
         left: 47.6vw;
-        top: 8vh;
+        top: 12vh;
         transform: rotate(45deg);
       }
       .rig, .ri{
         left: 47.6vw;
-        top: 92vh;
+        top: 88vh;
         transform: rotate(135deg);
       }
       *{
