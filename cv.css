@@ -218,9 +218,8 @@ background-color: #222;
     @media only screen and (max-width: 640px){
       .cover{
         width: 98%;
-        height: 75%;
-        box-shadow: 0 0 2vh darkred;
-        align-items: start;
+        height: 60%;
+        box-shadow: 0 0 1vh darkred;
       }
       .stamp{
         display: none;
@@ -234,12 +233,12 @@ background-color: #222;
       }
       .left{
         left: 47vw;
-        top: 10vh;
+        top: 3vh;
         transform: rotate(45deg);
       }
       .right{
         left: 47vw;
-        top: 80vh;
+        top: 97vh;
         transform: rotate(135deg);
       }
       .lef, .rig, .le, .ri{
@@ -248,12 +247,12 @@ background-color: #222;
       }
       .lef, .le{
         left: 47.6vw;
-        top: 15vh;
+        top: 8vh;
         transform: rotate(45deg);
       }
       .rig, .ri{
         left: 47.6vw;
-        top: 70vh;
+        top: 92vh;
         transform: rotate(135deg);
       }
       *{
