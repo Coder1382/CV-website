@@ -20,7 +20,7 @@ html, body{
 body{
   display: flex;
   flow-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 .stamp{
@@ -220,6 +220,7 @@ background-color: #222;
         width: 98%;
         height: 75%;
         box-shadow: 0 0 2vh darkred;
+        align-items: start;
       }
       .stamp{
         display: none;
