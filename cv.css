@@ -16,8 +16,11 @@ html, body{
   overflow: hidden;
   background-color: #222;
   z-index: -1;
+}
+body{
   display: flex;
-  justify-content: center;
+  flow-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 .stamp{
