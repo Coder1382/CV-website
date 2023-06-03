@@ -77,6 +77,7 @@ table:not(.ex){
 }
 .ex td, .ex{
   border: none;
+  color: red;
 }
 a{
   margin: 1vw;
@@ -212,6 +213,11 @@ background-color: #222;
       display: none;
     }
     @media only screen and (max-width: 640px){
+      .cover{
+        width: 98%;
+        height: 75%;
+        box-shadow: 0 0 2vh darkred;
+      }
       .stamp{
         display: none;
       }
@@ -221,12 +227,30 @@ background-color: #222;
       .left, .right{
         width: 3vh;
         height: 3vh;
-        top: 49%
+      }
+      .left{
+        left: 47vw;
+        top: 3vh;
+        transform: rotate(45deg);
+      }
+      .right{
+        left: 47vw;
+        top: 94vh;
+        transform: rotate(135deg);
       }
       .lef, .rig, .le, .ri{
         width: 2vh;
         height: 2vh;
-        top: 49.6%
+      }
+      .lef, .le{
+        left: 47.6vw;
+        top: 8vh;
+        transform: rotate(45deg);
+      }
+      .rig, .ri{
+        left: 47.6vw;
+        top: 90vh;
+        transform: rotate(135deg);
       }
       *{
         font-size: 1.7vh;
