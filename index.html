@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="personal-profile.png"/>
+    <title>CV</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <div class="cover">
+        <img class="stamp" src="curriculum.png"/> <img class="stamp" src="curriculum.png"/>
+        <img class="stamp" src="curriculum.png"/> <img class="stamp" src="curriculum.png"/>
+        <table class='summ'>
+           <caption><h3>summary</h3></caption>
+           <tr>
+               <td>Full Name</td> <td>Aleksandr Poluianov</td>
+               <td class='photo' rowspan="7"><img class='foto' src='foto.jpg'/></td>
+           </tr>
+           <tr>
+               <td>DoB</td> <td>03/13/1982</td>
+           </tr>
+           <tr>
+               <td>Email</td> <td>mailbox112000@mail.ru</td>
+           </tr>
+           <tr>
+               <td>WhatsApp</td> <td>+7-950-309-94-87</td>
+           </tr>
+           <tr>
+               <td colspan="2"> <a href='https://github.com/Coder1382'>GitHub</a><a href='https://www.linkedin.com/in/researcher1382/'>
+                LinkedIn</a><a href="https://www.hackerrank.com/mailbox112000">HackerRank</a> </td>
+           </tr>
+        </table>
+        <table class='over'>
+            <caption><h3>overview</h3></caption>
+            <tr>
+                <td class='desc'>
+                    My earlier work experience was mostly related to oil and gas production industry,
+                    but then I switched to freelance activity and until recently have been focused in the following areas:
+                    <ul>
+                        <li>written translation projects</li>
+                        <li>essay writing</li>
+                        <li>website design</li>
+                        <li>content management</li>
+                    </ul>
+                    IT tools used by me in my work are as follows: HTML, CSS, JavaScript,Tilda, Figma, React, Bitrix CMS,
+                    Google Sheets, SQL, partially Python.<br/> My current goal is to land a job in a reliable company.
+                </td>
+            </tr>
+        </table>
+         <span class="left" onclick='change1()' ontouchstart="change1()"></span>
+         <span class="right" onclick='change2()' ontouchstart="change2()"></span>
+         <div class="educa hide">
+         <table class="educ">
+            <caption><h3>education</h3></caption>
+            <tr>
+                <td>Institution</td> <td>Qualification</td>
+            </tr>
+            <tr>
+                <td>Kazan State University</td> <td>English Language Translator</td>
+            </tr>
+            <tr>
+                <td>Kazan State University</td> <td>Geologist</td>
+            </tr>
+            <tr>
+                <td>Almetyevsk Petroleum College</td> <td>Oil Equipment Mechanician</td>
+            </tr>
+        </table>
+        <table class="educ hide">
+            <caption><h3>vocational courses</h3></caption>
+            <tr>
+                <td>Provider</td> <td>Course</td>
+            </tr>
+            <tr>
+                <td>Schlumberger Middle-East Learning Center</td> <td>Advanced Course on Geonext</td>
+            </tr>
+            <tr>
+                <td>Baku Training Center</td> <td>BOSIET</td>
+            </tr>
+            <tr>
+                <td>Sakhalin Technician Training Center</td> <td>HUET</td>
+            </tr>
+            <tr>
+                <td>Schlumberger Middle-East Learning Center</td> <td>Mudlogging Specilalist</td>
+            </tr>
+        </table>
+        <span class="le" onclick='swap1()' ontouchstart="swap1()"></span>
+        <span class="ri" onclick='swap2()' ontouchstart="swap2()"></span>
+        </div>
+         <div class='work hide'>
+            <table class='job'>
+                <caption><h3>work record</h3></caption>
+                <tr>
+                    <td>Company</td> <td>Location</td> <td>Job</td> <td>Responsibilities</td>
+                </tr>
+                <tr class="employ">
+                    <td>
+                        <table class="ex">
+                            <tr> <td> Schlumberger </td> </tr>
+                            <tr><td><span class="company"></span></td></tr>
+                            <tr> <td>TNG-Group</td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="ex">
+                            <tr><td>Okhotsk Sea Shelf</td></tr>
+                            <tr><td><span></span></td></tr>
+                            <tr><td>Caspian Sea</td></tr>
+                            <tr><td><span></span></td></tr>
+                            <tr><td>Irkutsk Region</td></tr>
+                        </table>
+                    </td>
+                    <td>Mudlogging Technician</td>
+                    <td class='desc'>
+                    Operate a computerized mud-logging system to timely detect formation fluid kicks and/or mud losses 
+                    during borehole drilling and pipe trips. Collect and describe drill cuttings. Maintain gas analyzer, 
+                    sensors, probes. Rig up and rig down the mud-logging system during relocation
+                    </td>
+                </tr>
+                <tr class="employ hide">
+                    <td>
+                        Radial Drilling Services
+                    </td>
+                    <td>
+                        <table class="ex">
+                            <tr><td>Orenburg Region</td></tr> <tr><td>Perm Region</td></tr>
+                        </table>
+                    </td>
+                    <td>Coil-tubing Unit Operator</td>
+                    <td class="desc">
+                        Operate a truck-based coil-tubing unit to make 100-meter-long channels in depleted reservoirs 
+                        to increase their recovery rate. Such channels were made by a water jet injected through coli-tubing
+                        and a hose under a high pressure build up by high-performance pumps
+                    </td>
+                </tr>
+                <tr class="employ hide">
+                    <td>
+                        Tatoilgas
+                    </td>
+                    <td>
+                        Tatartstan Republic
+                    </td>
+                    <td>Oil Production Operator</td>
+                    <td class="desc">
+                    Daily check group metering stations, pumping units and pipelines, take instrumentation readings. 
+                    Weekly sample well-bore fluids. Timely replace worn glands and drive belts of pumping units
+                    </td>
+                </tr>
+            </table>
+            <span class="lef" onclick='set1()' ontouchstart="set1()"></span>
+            <span class="rig" onclick='set2()' ontouchstart="set2()"></span>
+        </div>
+        <div class="slider">
+            <a href='https://drive.google.com/file/d/140GBTK_4fwvWf4NJ-TyJQYI0Vh6Pc9C7/view?usp=sharing' target='_blank'><img class="slide" src='Python_Basics.png'/></a>
+            <a href='https://www.linkedin.com/learning/certificates/c8b83058d282bf2ffff84ca7c2d6d061815ce2ce6f1f17cb4e9918b3a7b6ddf0' 
+            target='_blank'><img class="slide" src='Programming_Basics.png'/></a>
+            <a href=
+            "https://www.linkedin.com/learning/certificates/109c95006a96e9a56f5d20cfcc0a6d1699012ba3e7ee9255c56b48e819f4de5e?trk=share_certificate" 
+            target="_blank"><img class="slide" src="career skills.png"/></a>
+        </div>
+    </div>
+</body>
+<script>
+    let para=0;
+     const change1=()=>{
+        if(para>0){
+           para--;
+        }
+        if(para>0){
+           document.getElementsByClassName('left')[0].style.borderTopColor='lightgrey';
+           document.getElementsByClassName('left')[0].style.borderLeftColor='lightgrey';
+           if(para<2){
+            document.getElementsByClassName('right')[0].style.borderRightColor='lightgrey';
+            document.getElementsByClassName('right')[0].style.borderTopColor='lightgrey';
+           }
+        }
+        else{
+            document.getElementsByClassName('left')[0].style.borderLeftColor='#222';
+            document.getElementsByClassName('left')[0].style.borderTopColor='#222';
+            document.getElementsByClassName('right')[0].style.borderRightColor='lightgrey';
+            document.getElementsByClassName('right')[0].style.borderTopColor='lightgrey';
+        }
+        
+    }
+    const change2=()=>{
+        if(para<2){
+            para++;
+        }
+        if(para<2){
+            document.getElementsByClassName('right')[0].style.borderRightColor='lightgrey';
+            document.getElementsByClassName('right')[0].style.borderTopColor='lightgrey';
+            if(para>0){
+                document.getElementsByClassName('left')[0].style.borderLeftColor='lightgrey';
+                document.getElementsByClassName('left')[0].style.borderTopColor='lightgrey';
+            }
+        }
+        else{
+            document.getElementsByClassName('right')[0].style.borderRightColor='#222';
+            document.getElementsByClassName('right')[0].style.borderTopColor='#222';
+            document.getElementsByClassName('left')[0].style.borderLeftColor='lightgrey';
+            document.getElementsByClassName('left')[0].style.borderTopColor='lightgrey';
+        }
+    }
+    let job=0
+    const set1=()=>{
+        if(job>-2){
+           job--;
+        }
+        if(job>-2){
+           document.getElementsByClassName('lef')[0].style.borderTopColor='lightgrey';
+           document.getElementsByClassName('lef')[0].style.borderLeftColor='lightgrey';
+           if(job<0){
+            document.getElementsByClassName('rig')[0].style.borderRightColor='lightgrey';
+            document.getElementsByClassName('rig')[0].style.borderTopColor='lightgrey';
+           }
+        }
+        else{
+            document.getElementsByClassName('lef')[0].style.borderLeftColor='#222';
+            document.getElementsByClassName('lef')[0].style.borderTopColor='#222';
+            document.getElementsByClassName('rig')[0].style.borderRightColor='lightgrey';
+            document.getElementsByClassName('rig')[0].style.borderTopColor='lightgrey';
+        }
+    }
+    const set2=()=>{
+        if(job<0){
+            job++;
+        }
+        if(job<0){
+            document.getElementsByClassName('rig')[0].style.borderRightColor='lightgrey';
+            document.getElementsByClassName('rig')[0].style.borderTopColor='lightgrey';
+            if(job>-2){
+                document.getElementsByClassName('lef')[0].style.borderLeftColor='lightgrey';
+                document.getElementsByClassName('lef')[0].style.borderTopColor='lightgrey';
+            }
+        }
+        else{
+            document.getElementsByClassName('rig')[0].style.borderRightColor='#222';
+            document.getElementsByClassName('rig')[0].style.borderTopColor='#222';
+            document.getElementsByClassName('lef')[0].style.borderLeftColor='lightgrey';
+            document.getElementsByClassName('lef')[0].style.borderTopColor='lightgrey';
+        }
+    }
+    let e=0;
+    const swap1=()=>{
+    if(e>0){
+        e--;
+        }
+        if(e>0){
+           document.getElementsByClassName('le')[0].style.borderTopColor='lightgrey';
+           document.getElementsByClassName('le')[0].style.borderLeftColor='lightgrey';
+           if(e<1){
+            document.getElementsByClassName('ri')[0].style.borderRightColor='lightfrey';
+            document.getElementsByClassName('ri')[0].style.borderTopColor='lightgrey';
+           }
+        }
+        else{
+            document.getElementsByClassName('le')[0].style.borderLeftColor='#222';
+            document.getElementsByClassName('le')[0].style.borderTopColor='#222';
+            document.getElementsByClassName('ri')[0].style.borderRightColor='lightgrey';
+            document.getElementsByClassName('ri')[0].style.borderTopColor='lightgrey';
+        }
+    }
+    const swap2=()=>{
+    if(e<1){
+        e++;
+        }
+        if(e<1){
+            document.getElementsByClassName('ri')[0].style.borderRightColor='#lightgrey';
+            document.getElementsByClassName('ri')[0].style.borderTopColor='#lightgrey';
+            if(e>0){
+                document.getElementsByClassName('le')[0].style.borderLeftColor='#lightgrey';
+                document.getElementsByClassName('le')[0].style.borderTopColor='#lightgrey';
+            }
+        }
+        else{
+            document.getElementsByClassName('ri')[0].style.borderRightColor='#222';
+            document.getElementsByClassName('ri')[0].style.borderTopColor='#222';
+            document.getElementsByClassName('le')[0].style.borderLeftColor='lightgrey';
+            document.getElementsByClassName('le')[0].style.borderTopColor='lightgrey';
+        }
+    }
+    document.getElementsByClassName('left')[0].addEventListener('click', ()=>{
+        if(para===0){
+            document.getElementsByClassName('over')[0].classList.remove('hide');
+            document.getElementsByClassName('educa')[0].classList.add('hide');
+            document.getElementsByClassName('work')[0].classList.add('hide');
+        }
+        else if(para===1){
+            document.getElementsByClassName('over')[0].classList.add('hide');
+            document.getElementsByClassName('educa')[0].classList.remove('hide');
+            document.getElementsByClassName('work')[0].classList.add('hide');
+        }
+        else if(para===2){
+            document.getElementsByClassName('over')[0].classList.add('hide');
+            document.getElementsByClassName('educa')[0].classList.add('hide');
+            document.getElementsByClassName('work')[0].classList.remove('hide');
+        }
+    })
+    document.getElementsByClassName('right')[0].addEventListener('click', ()=>{
+        if(para===0){
+            document.getElementsByClassName('over')[0].classList.remove('hide');
+            document.getElementsByClassName('educa')[0].classList.add('hide');
+            document.getElementsByClassName('work')[0].classList.add('hide');
+        }
+        else if(para===1){
+            document.getElementsByClassName('over')[0].classList.add('hide');
+            document.getElementsByClassName('educa')[0].classList.remove('hide');
+            document.getElementsByClassName('work')[0].classList.add('hide');
+        }
+        else if(para===2){
+            document.getElementsByClassName('over')[0].classList.add('hide');
+            document.getElementsByClassName('educa')[0].classList.add('hide');
+            document.getElementsByClassName('work')[0].classList.remove('hide');
+        }
+    })
+    document.getElementsByClassName('le')[0].addEventListener('click', ()=>{
+        if(e===0){
+            document.getElementsByClassName('educ')[0].classList.remove('hide')
+            document.getElementsByClassName('educ')[1].classList.add('hide')
+        }
+        else if(e===1){
+            document.getElementsByClassName('educ')[0].classList.add('hide')
+            document.getElementsByClassName('educ')[1].classList.remove('hide')
+        }
+    })
+    document.getElementsByClassName('ri')[0].addEventListener('click', ()=>{
+        if(e===0){
+            document.getElementsByClassName('educ')[0].classList.remove('hide')
+            document.getElementsByClassName('educ')[1].classList.add('hide')
+        }
+        else if(e===1){
+            document.getElementsByClassName('educ')[0].classList.add('hide')
+            document.getElementsByClassName('educ')[1].classList.remove('hide')
+        }
+    })
+    document.getElementsByClassName('lef')[0].addEventListener('click', ()=>{
+        if(job===0){
+                document.getElementsByClassName('employ')[0].classList.remove('hide');
+                document.getElementsByClassName('employ')[1].classList.add('hide');
+                document.getElementsByClassName('employ')[2].classList.add('hide');
+        }
+        else if(job===-1){
+            document.getElementsByClassName('employ')[0].classList.add('hide');
+            document.getElementsByClassName('employ')[1].classList.remove('hide');
+            document.getElementsByClassName('employ')[2].classList.add('hide');
+        }
+        else if(job===-2){
+            document.getElementsByClassName('employ')[0].classList.add('hide');
+                document.getElementsByClassName('employ')[1].classList.add('hide');
+                document.getElementsByClassName('employ')[2].classList.remove('hide');
+        }
+    })        
+    document.getElementsByClassName('rig')[0].addEventListener('click', ()=>{
+        if(job===0){
+                document.getElementsByClassName('employ')[0].classList.remove('hide');
+                document.getElementsByClassName('employ')[1].classList.add('hide');
+                document.getElementsByClassName('employ')[2].classList.add('hide');
+        }
+        else if(job===-1){
+            document.getElementsByClassName('employ')[0].classList.add('hide');
+            document.getElementsByClassName('employ')[1].classList.remove('hide');
+            document.getElementsByClassName('employ')[2].classList.add('hide');
+        }
+        else if(job===-2){
+            document.getElementsByClassName('employ')[0].classList.add('hide');
+                document.getElementsByClassName('employ')[1].classList.add('hide');
+                document.getElementsByClassName('employ')[2].classList.remove('hide');
+        }
+    })        
+</script>
+</html>
