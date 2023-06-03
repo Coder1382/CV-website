@@ -212,6 +212,9 @@ background-color: #222;
       display: none;
     }
     @media only screen and (max-width: 640px){
+      .stamp{
+        display: none;
+      }
       .slide{
         height: 15vw;
       }
