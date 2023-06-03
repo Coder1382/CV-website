@@ -20,7 +20,7 @@ html, body{
 body{
   display: flex;
   flow-direction: column;
-  justify-content: space-evenly;
+  justify-content: start;
   align-items: center;
 }
 .stamp{
